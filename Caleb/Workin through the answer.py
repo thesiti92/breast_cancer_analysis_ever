@@ -8,4 +8,6 @@ X_train, X_test, y_train, y_test = train_test_split(features.values.astype(int),
 clf = MLPClassifier()
 clf.fit(X_train, y_train)
 print clf.score(X_test, y_test)
+print clf.predict(X_test)
+#make a new csv file with made up inputs
 
