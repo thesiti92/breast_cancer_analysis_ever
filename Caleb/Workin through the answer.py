@@ -5,7 +5,7 @@ from numpy import mean
 
 count = 0
 while (count < 10):
-    features = pd.read_csv("breast-cancer-wisconsin.csv", index_col=False, header=0).drop("id", axis=1)
+    features = pd.read_csv("main_cancer_data.csv", index_col=False, header=0).drop("id", axis=1)
     labels = features.pop("label").apply(lambda x: x/2-1)
     X_train, X_test, y_train, y_test = train_test_split(features.values.astype(int), labels.values.astype(int), test_size=.33)
     clf = MLPClassifier()
