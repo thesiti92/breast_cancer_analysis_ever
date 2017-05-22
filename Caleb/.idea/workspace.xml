@@ -51,11 +51,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Attribute isolation.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Attribute isolation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Attribute isolation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="101" column="21" lean-forward="false" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
+            <state relative-caret-position="240">
+              <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mean functionality.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Mean functionality.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -93,6 +105,7 @@
         <option value="$PROJECT_DIR$/size_uniformity.csv" />
         <option value="$PROJECT_DIR$/Workin through the answer.py" />
         <option value="$PROJECT_DIR$/Attribute isolation.py" />
+        <option value="$PROJECT_DIR$/Mean functionality.py" />
       </list>
     </option>
   </component>
@@ -121,7 +134,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.Attribute Isolation ">
+  <component name="RunManager" selected="Python.Tyler is a boss">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -190,10 +203,28 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <configuration default="false" name="Tyler is a boss" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Caleb" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mean functionality.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.run cancer analysis" />
       <item index="1" class="java.lang.String" itemvalue="Python.Alex's Stuff" />
       <item index="2" class="java.lang.String" itemvalue="Python.Attribute Isolation " />
+      <item index="3" class="java.lang.String" itemvalue="Python.Tyler is a boss" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -365,6 +396,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/epithelial_size.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Workin through the answer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -375,11 +414,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/epithelial_size.csv">
+    <entry file="file://$PROJECT_DIR$/Attribute isolation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="240">
+          <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -391,10 +432,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Attribute isolation.py">
+    <entry file="file://$PROJECT_DIR$/Mean functionality.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="101" column="21" lean-forward="false" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
+        <state relative-caret-position="342">
+          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>

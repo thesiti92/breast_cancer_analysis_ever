@@ -2,6 +2,7 @@ from sklearn.neural_network import MLPClassifier
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
+adder = 0
 count = 0
 while count < 10:
     df = pd.read_csv("clump_thickness.csv", index_col=False, header=0).drop("id", axis=1)
@@ -10,7 +11,9 @@ while count < 10:
     clf = MLPClassifier()
     clf.fit(X_train, y_train)
     print clf.score(X_test, y_test)
+    adder = adder + clf.score(X_test, y_test)
     count = count + 1
+print(str(adder/count))
 print("End of clump thickness data")
 
 count = 0
