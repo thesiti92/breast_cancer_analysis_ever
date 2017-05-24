@@ -1,3 +1,6 @@
+import data as data
+import go as go
+import layout as layout
 from sklearn.neural_network import MLPClassifier
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -50,11 +53,29 @@ print(MeanArray)
 
 data = [go.Bar(
             x=['All Attributes', 'Clump Thickness', 'Size Uniformity', 'Shape Uniformity', 'Marginal Adhesion',
-               'Epithelial Size','Bare Nuclei','Bland Chromatin','Normal Nucleoli','mitosis'],
+               'Epithelial Size','Bare Nuclei','Bland Chromatin','Normal Nucleoli','mitosis']
             y = MeanArray
-    )]
-
-py.iplot(data, filename='Attribute-Bar-Graph')
+    layout = go.Layout(
+        title='Plot Title',
+        xaxis=dict(
+            title='x Axis',
+            titlefont=dict(
+                family='Courier New, monospace',
+                size=18,
+                color='#7f7f7f'
+            )
+        ),
+        yaxis=dict(
+            title='y Axis',
+            titlefont=dict(
+                family='Courier New, monospace',
+                size=18,
+                color='#7f7f7f'
+            )
+        )
+    )
+fig = go.Figure(data=data, layout=layout)
+py.plot(data, filename='basic-bar2')
 
 '''
 objects = ('All Attributes', 'Clump Thickness', 'Size Uniformity', 'Shape Uniformity', 'Marginal Adhesion', 'Epithelial Size','Bare Nuclei','Bland Chromatin','Normal Nucleoli,'Mitosis')
