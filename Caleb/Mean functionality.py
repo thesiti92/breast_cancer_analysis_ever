@@ -1,6 +1,10 @@
 from sklearn.neural_network import MLPClassifier
 import pandas as pd
 from sklearn.model_selection import train_test_split
+import plotly.plotly as py
+import plotly.graph_objs as go
+import plotly
+plotly.tools.set_credentials_file(username='crhodes21', api_key='U4jIV8iTZLBAOUo9i3U1')
 
 def evaluator(file,endString):
     adder = 0
@@ -43,6 +47,14 @@ MeanArray.append(evaluator("bland_chromatin.csv","End of bland chromatin data"))
 MeanArray.append(evaluator("normal_nucleoli.csv","End of normal nucleoli data"))
 MeanArray.append(evaluator("mitosis.csv","End of mitosis data"))
 print(MeanArray)
+
+data = [go.Bar(
+            x=['All Attributes', 'Clump Thickness', 'Size Uniformity', 'Shape Uniformity', 'Marginal Adhesion',
+               'Epithelial Size','Bare Nuclei','Bland Chromatin','Normal Nucleoli','mitosis'],
+            y = MeanArray
+    )]
+
+py.iplot(data, filename='Attribute-Bar-Graph')
 
 '''
 objects = ('All Attributes', 'Clump Thickness', 'Size Uniformity', 'Shape Uniformity', 'Marginal Adhesion', 'Epithelial Size','Bare Nuclei','Bland Chromatin','Normal Nucleoli,'Mitosis')
